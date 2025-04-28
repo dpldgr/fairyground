@@ -77,10 +77,6 @@
 
 borderlands|borderlands|borderlands-cobalt-board,borderlands-blue-board,borderlands-green-board,borderlands-brown-board,borderlands-purple-board,borderlands-xiangqi-board
 
-seirawan|seirawan|
-shouse|@seirawan|
-duck|duck|
-
 spartan|spartan|
 empire|empire|
 orda|orda|
