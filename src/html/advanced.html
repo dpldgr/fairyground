@@ -6283,6 +6283,23 @@
         }
       };
 
+      const onLoadBorderlands = async (e) => {
+        const response = await url('https://borderlands-variant.vercel.app/borderlands.ini');
+        console.log(`${response}`);
+        /*
+        if (selected) {
+          const FS = stockfish.FS;
+          const buffer = await selected.arrayBuffer();
+          const array = new Uint8Array(buffer);
+          const filename = "/" + selected.name;
+          FS.writeFile(filename, array);
+          stockfish.postMessage(`check ${filename}`);
+          stockfish.postMessage(`load ${filename}`);
+          getVariants();
+        }
+        */
+      };
+
       function isLetter(str) {
         return str.length === 1 && str.match(/[a-z]/i);
       }
@@ -6485,6 +6502,11 @@
                   },
                   "[?]",
                 ),
+                m(
+                  "button#loadborderlands.ripple",
+                  { disabled: !is_ready, title: "Click to load Borderlands.", onchange: onLoadBorderlands },
+                  "Load Borderlands",
+                ),
               ]),
               m("div", { hidden: during_play }, [
                 "- positionvariants.txt: ",
@@ -6522,11 +6544,6 @@
                       ),
                   },
                   "[?]",
-                ),
-                m(
-                  "button#loadborderlands.ripple",
-                  { disabled: !is_ready, title: "Click to load Borderlands." },
-                  "Load Borderlands",
                 ),
               ]),
               m("div", { hidden: during_play }, [
