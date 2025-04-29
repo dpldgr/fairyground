@@ -6300,8 +6300,11 @@
         stockfish.postMessage(`check ${filename}`);
         stockfish.postMessage(`load ${filename}`);
         getVariants();
-	    $("#dropdown-variant").value = "borderlands";
-	    setVariant();
+
+        setTimeout(() => {
+	        $("#dropdown-variant").value = "borderlands";
+            $("#dropdown-variant").dispatchEvent(new Event("change"));
+          }, 200);
       };
 
       function isLetter(str) {
