@@ -6231,11 +6231,6 @@
               });
               onLoadBorderlands();
               getVariants();
-
-              setTimeout(() => {
-                $("#dropdown-variant").value = "borderlands";
-                $("#dropdown-variant").dispatchEvent(new Event("change"));
-              }, 2000);
             },
             (err) => {
               console.error(err);
@@ -6304,6 +6299,7 @@
         FS.writeFile(filename, array);
         stockfish.postMessage(`check ${filename}`);
         stockfish.postMessage(`load ${filename}`);
+        getVariants();
       };
 
       function isLetter(str) {
