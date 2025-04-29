@@ -6287,8 +6287,8 @@
         const FS = stockfish.FS;
         let ini_file;
         const res = await fetch('./borderlands.ini')
-        ini_file = await res.text();
-        console.log(ini_file);
+        //ini_file = await res.text();
+        //console.log(ini_file);
         const arrayBuffer = await res.arrayBuffer();
         const uint8Array = new Uint8Array(arrayBuffer);
         FS.writeFile('/borderlands.ini', uint8Array);
