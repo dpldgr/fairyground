@@ -6287,16 +6287,20 @@
         let ini_file;
         const res = await fetch('./borderlands.ini')
         ini_file = await res.text();
-        return ini_file;
+        console.log(ini_file);
+        FS.writeFile('/borderlands.ini', ini_file);
+        stockfish.postMessage(`check ${filename}`);
+        stockfish.postMessage(`load ${filename}`);
+        getVariants();
       }
 
       const onLoadBorderlands = () => {
         let text;
         console.log(`Loading borderlands.ini`);
-        text = fetchBorderlandsIni();
+        fetchBorderlandsIni();
         //fetch('./borderlands.ini')
 		//  .then(response => (text = response.text()))
-        console.log(text);
+        //console.log(text);
         /*
         if (selected) {
           const FS = stockfish.FS;
