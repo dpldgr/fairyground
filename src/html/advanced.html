@@ -6283,11 +6283,11 @@
         }
       };
 
-      const oninit = () => {
       const onLoadBorderlands = () => {
         console.log(`Loading borderlands.ini`);
-        const response = await url('https://borderlands-variant.vercel.app/borderlands.ini');
-        console.log(`Response: ${response}`);
+        fetch('./borderlands.ini')
+		  .then(response => response.text())
+		  .then(data => console.log(data));
         /*
         if (selected) {
           const FS = stockfish.FS;
