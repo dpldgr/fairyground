@@ -6263,7 +6263,7 @@
           stockfish.postMessage(`setoption name EvalFile value ${filename}`);
           // Automatically set variant
           const variant = selected.name.split(/[_.-]+/)[0];
-          $("#dropdown-variant").value = variant;
+	          $("#dropdown-variant").value = variant;
           $("#dropdown-variant").dispatchEvent(new Event("change"));
         }
       };
@@ -6283,6 +6283,7 @@
         }
       };
 
+      /*
       async function fetchBorderlandsIni() {
         const FS = stockfish.FS;
         let ini_file;
@@ -6298,15 +6299,27 @@
         $("#dropdown-variant").value = "borderlands";
         setVariant();
       }
+      */
 
-      const onLoadBorderlands = () => {
+      const onLoadBorderlands = async () => {
+
+        const FS = stockfish.FS;
+        const response = await fetch('./borderlands.ini')
+        const buffer = await response.arrayBuffer();
+        const array = new Uint8Array(buffer);
+        const filename = "/borderlands.ini";
+        FS.writeFile(filename, array);
+        stockfish.postMessage(`check ${filename}`);
+        stockfish.postMessage(`load ${filename}`);
+        getVariants();
+
+        /*
         let text;
         console.log(`Loading borderlands.ini`);
         fetchBorderlandsIni();
         //fetch('./borderlands.ini')
 		//  .then(response => (text = response.text()))
         //console.log(text);
-        /*
         if (selected) {
           const FS = stockfish.FS;
           const buffer = await selected.arrayBuffer();
