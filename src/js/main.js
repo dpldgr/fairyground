@@ -17,6 +17,8 @@ const textMoves = document.getElementById("move");
 const buttonSetFen = document.getElementById("setpos");
 const buttonStop = document.getElementById("stop");
 const pSetFen = document.getElementById("set");
+const limitDepth = document.getElementById("depth");
+const limitNodes = document.getElementById("nodes");
 const labelPgn = document.getElementById("label-pgn");
 const labelStm = document.getElementById("label-stm");
 const chessgroundContainerEl = document.getElementById(
@@ -49,6 +51,7 @@ const buttonSpecifiedPosition = document.getElementById("specifiedposition");
 const buttonGameStart = document.getElementById("gamestart");
 const playWhite = document.getElementById("playwhite");
 const playBlack = document.getElementById("playblack");
+const dropdownEngineLevel = document.getElementById("dropdown-enginelevel");
 const randomMoverWhite = document.getElementById("randommoverwhite");
 const randomMoverBlack = document.getElementById("randommoverblack");
 const currentBoardFen = document.getElementById("currentboardfen");
@@ -2699,6 +2702,64 @@ new Module().then((loadedModule) => {
 
   buttonValidatePosition.onclick = function () {
     validateFEN(getFEN(true), true);
+  };
+
+  dropdownEngineLevel.onchange = function () {
+    if (dropdownEngineLevel.value == "<UNLIMITED>")
+    {
+        limitDepth.value = "";
+        limitNodes.value = "";
+    }
+    else if (dropdownEngineLevel.value == "1")
+    {
+        limitDepth.value = "1";
+        limitNodes.value = "15625";
+    }
+    else if (dropdownEngineLevel.value == "2")
+    {
+        limitDepth.value = "2";
+        limitNodes.value = "31250";
+    }
+    else if (dropdownEngineLevel.value == "3")
+    {
+        limitDepth.value = "3";
+        limitNodes.value = "62500";
+    }
+    else if (dropdownEngineLevel.value == "4")
+    {
+        limitDepth.value = "4";
+        limitNodes.value = "125000";
+    }
+    else if (dropdownEngineLevel.value == "5")
+    {
+        limitDepth.value = "4";
+        limitNodes.value = "250000";
+    }
+    else if (dropdownEngineLevel.value == "6")
+    {
+        limitDepth.value = "6";
+        limitNodes.value = "500000";
+    }
+    else if (dropdownEngineLevel.value == "7")
+    {
+        limitDepth.value = "8";
+        limitNodes.value = "1000000";
+    }
+    else if (dropdownEngineLevel.value == "8")
+    {
+        limitDepth.value = "10";
+        limitNodes.value = "2000000";
+    }
+    else if (dropdownEngineLevel.value == "9")
+    {
+        limitDepth.value = "12";
+        limitNodes.value = "4000000";
+    }
+    else if (dropdownEngineLevel.value == "10")
+    {
+        limitDepth.value = "";
+        limitNodes.value = "8000000";
+    }
   };
 
   dropdownSetPiece.onchange = function () {
