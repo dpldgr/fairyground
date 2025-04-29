@@ -2427,7 +2427,8 @@ new Module().then((loadedModule) => {
     }
   };
 
-  borderlandsIni.onclick = async (e) => {
+  //borderlandsIni.onclick = async (e) => {
+  async function ffishBorderlands() {
 
     resetTimer();
     recordedmultipv = 1;
