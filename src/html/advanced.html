@@ -6292,7 +6292,7 @@
         FS.writeFile('/borderlands.ini', ini_file);
         stockfish.postMessage(`check /borderlands.ini`);
         stockfish.postMessage(`load /borderlands.ini`);
-        getVariants();
+        stockfish.postMessage(`uci`);
       }
 
       const onLoadBorderlands = () => {
