@@ -6290,8 +6290,8 @@
         ini_file = await res.text();
         console.log(ini_file);
         FS.writeFile('/borderlands.ini', ini_file);
-        stockfish.postMessage(`check ${filename}`);
-        stockfish.postMessage(`load ${filename}`);
+        stockfish.postMessage(`check /borderlands.ini`);
+        stockfish.postMessage(`load /borderlands.ini`);
         getVariants();
       }
 
