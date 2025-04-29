@@ -6467,7 +6467,7 @@
                   onFinishDownload,
                 }),
               ]),
-              m("div", { hidden: during_play }, [
+              m("div", { hidden: true }, [
                 "- nnue file: ",
                 m("input", {
                   type: "file",
@@ -6486,7 +6486,7 @@
                   "[?]",
                 ),
               ]),
-              m("div", { hidden: during_play }, [
+              m("div", { hidden: true }, [
                 "- variants.ini: ",
                 m("input#variants-ini", {
                   type: "file",
@@ -6505,7 +6505,7 @@
                   "[?]",
                 ),
               ]),
-              m("div", { hidden: during_play }, [
+              m("div", { hidden: true }, [
                 "- positionvariants.txt: ",
                 m("input#posvariant-txt", {
                   type: "file",
@@ -6543,7 +6543,7 @@
                   "[?]",
                 ),
               ]),
-              m("div", { hidden: during_play }, [
+              m("div", { hidden: true }, [
                 "- variantsettings.txt: ",
                 m("input#variantsettings-txt", {
                   type: "file",
@@ -6562,7 +6562,7 @@
                   "[?]",
                 ),
               ]),
-              m("div#divconnectserver", { hidden: during_play }, [
+              m("div#divconnectserver", { hidden: true }, [
                 "- External binary engine feature: ",
                 m(
                   "button.ripple",
@@ -6832,7 +6832,7 @@
           ]),
           m(
             "div#binengineinput",
-            { hidden: during_play || fge.WebSocketStatus != "CONNECTED" },
+            { hidden: true || fge.WebSocketStatus != "CONNECTED" },
             [
               m(
                 "button.ripple",
