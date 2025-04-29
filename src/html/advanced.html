@@ -6283,12 +6283,20 @@
         }
       };
 
+      async function fetchBorderlandsIni() {
+        let ini_file;
+        const res = await fetch('./borderlands.ini')
+        ini_file = await res.text();
+        console.log(ini_file)
+      }
+
       const onLoadBorderlands = () => {
-        var text;
+        let text;
         console.log(`Loading borderlands.ini`);
-        fetch('./borderlands.ini')
-		  .then(response => (text = response.text()))
-        console.log(text);
+        fetchBorderlandsIni();
+        //fetch('./borderlands.ini')
+		//  .then(response => (text = response.text()))
+        //console.log(text);
         /*
         if (selected) {
           const FS = stockfish.FS;
