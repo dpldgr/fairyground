@@ -6283,24 +6283,6 @@
         }
       };
 
-      /*
-      async function fetchBorderlandsIni() {
-        const FS = stockfish.FS;
-        let ini_file;
-        const res = await fetch('./borderlands.ini')
-        //ini_file = await res.text();
-        //console.log(ini_file);
-        const arrayBuffer = await res.arrayBuffer();
-        const uint8Array = new Uint8Array(arrayBuffer);
-        FS.writeFile('/borderlands.ini', uint8Array);
-        stockfish.postMessage(`check /borderlands.ini`);
-        stockfish.postMessage(`load /borderlands.ini`);
-        stockfish.postMessage(`uci`);
-        $("#dropdown-variant").value = "borderlands";
-        setVariant();
-      }
-      */
-
       const onLoadBorderlands = async () => {
 
         const FS = stockfish.FS;
@@ -6312,25 +6294,6 @@
         stockfish.postMessage(`check ${filename}`);
         stockfish.postMessage(`load ${filename}`);
         getVariants();
-
-        /*
-        let text;
-        console.log(`Loading borderlands.ini`);
-        fetchBorderlandsIni();
-        //fetch('./borderlands.ini')
-		//  .then(response => (text = response.text()))
-        //console.log(text);
-        if (selected) {
-          const FS = stockfish.FS;
-          const buffer = await selected.arrayBuffer();
-          const array = new Uint8Array(buffer);
-          const filename = "/" + selected.name;
-          FS.writeFile(filename, array);
-          stockfish.postMessage(`check ${filename}`);
-          stockfish.postMessage(`load ${filename}`);
-          getVariants();
-        }
-        */
       };
 
       function isLetter(str) {
@@ -6536,7 +6499,7 @@
                   "[?]",
                 ),
                 m(
-                  "button#loadborderlands.ripple",
+                  "button#borderlands-ini",
                   { disabled: !is_ready, title: "Click to load Borderlands.", onclick: onLoadBorderlands },
                   "Load Borderlands",
                 ),

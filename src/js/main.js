@@ -4,6 +4,7 @@ import * as util from "chessgroundx/util";
 import * as pocketutil from "chessgroundx/pocket";
 const divMain = document.getElementsByTagName("main")[0];
 const variantsIni = document.getElementById("variants-ini");
+const borderlandsIni = document.getElementById("borderlands-ini");
 const dropdownVariant = document.getElementById("dropdown-variant");
 const buttonReset = document.getElementById("reset");
 const buttonFlip = document.getElementById("button-flip");
@@ -1246,13 +1247,13 @@ function parseUCIMovesToPreviewElements(
     moveelement.startingfen = fen;
     moveelement.moves = moves.slice(0, i + 1).join(" ");
     /*
-        
+
         TODO: Due to dynamic element removing and adding, sometimes clicking the element has no effect, especially when it's frequently updated.
               The shorter the intervals of deleting previous div and creating a new one using this function is, the more frequent it happens.
               For example, let 2 random movers play against each other and this happens frequently.
 
               This is likely to be caused by clicking during the initialization period of these elements, so probably use static allocation which does not delete and create DOM objects, but modifies its content instead.
-        
+
         */
     moveelement.onclick = function () {
       chessground_mini.set({
@@ -2424,6 +2425,13 @@ new Module().then((loadedModule) => {
         ffish.loadVariantConfig(ini);
       });
     }
+  };
+
+  borderlandsIni.onclick = function (e) {
+    resetTimer();
+    recordedmultipv = 1;
+    console.log("/borderlands.ini");
+    ffish.loadVariantConfig("/borderlands.ini");
   };
 
   dropdownVariant.onchange = function () {
