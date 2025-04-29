@@ -2427,17 +2427,6 @@ new Module().then((loadedModule) => {
     }
   };
 
-  //borderlandsIni.onclick = async (e) => {
-  async function ffishBorderlands() {
-
-    resetTimer();
-    recordedmultipv = 1;
-    const response = await fetch('./borderlands.ini')
-    const ini = await response.text();
-    console.log(ini);
-    ffish.loadVariantConfig(ini);
-  };
-
   dropdownVariant.onchange = function () {
     if (isReviewMode.value.length > 0 && isReviewMode.value == 1) {
       return;
