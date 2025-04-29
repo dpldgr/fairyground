@@ -7089,6 +7089,115 @@
               }),
               "Engine black",
             ),
+            m("p", "Engine Level: "),
+            m(
+              "select#dropdown-enginelevel",
+              {
+                disabled: !is_ready || board_setup_mode,
+                title:
+                  "Limit the engine's strength.",
+              },
+              [
+                m(
+                  "option",
+                  {
+                    value: "<DISABLED>",
+                    title: "No limits set.",
+                  },
+                  "<DISABLED>",
+                ),
+                m(
+                  "option",
+                  {
+                    value: "1",
+                    title:
+                      "Level: 1, Depth: , Nodes: .",
+                  },
+                  "Level 1",
+                ),
+                m(
+                  "option",
+                  {
+                    value: "2",
+                    title:
+                      "Level: 2, Depth: , Nodes: .",
+                  },
+                  "Level 2",
+                ),
+                m(
+                  "option",
+                  {
+                    value: "3",
+                    title:
+                      "Level: 3, Depth: , Nodes: .",
+                  },
+                  "Level 3",
+                ),
+                m(
+                  "option",
+                  {
+                    value: "4",
+                    title:
+                      "Level: 4, Depth: , Nodes: .",
+                  },
+                  "Level 4",
+                ),
+                m(
+                  "option",
+                  {
+                    value: "5",
+                    title:
+                      "Level: 5, Depth: , Nodes: .",
+                  },
+                  "Level 5",
+                ),
+                m(
+                  "option",
+                  {
+                    value: "6",
+                    title:
+                      "Level: 6, Depth: , Nodes: .",
+                  },
+                  "Level 6",
+                ),
+                m(
+                  "option",
+                  {
+                    value: "7",
+                    title:
+                      "Level: 7, Depth: , Nodes: .",
+                  },
+                  "Level 7",
+                ),
+                m(
+                  "option",
+                  {
+                    value: "8",
+                    title:
+                      "Level: 8, Depth: , Nodes: .",
+                  },
+                  "Level 8",
+                ),
+                m(
+                  "option",
+                  {
+                    value: "9",
+                    title:
+                      "Level: 9, Depth: , Nodes: .",
+                  },
+                  "Level 9",
+                ),
+                m(
+                  "option",
+                  {
+                    value: "10",
+                    title:
+                      "Level: 10, Depth: , Nodes: .",
+                  },
+                  "Level 10",
+                ),
+              ],
+            ),
             m(
               "label",
               {
