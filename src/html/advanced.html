@@ -8294,17 +8294,7 @@
                     title:
                       "Click to display the initial position of current game.",
                   },
-                  "Initial Position",
-                ),
-                m(
-                  "button#currentposition.ripple",
-                  {
-                    onclick: displayCurrentPosition,
-                    disabled: !is_ready,
-                    title:
-                      "Click to display the latest position of current game.",
-                  },
-                  "Current Position",
+                  "Init",
                 ),
                 m(
                   "button#previousposition.ripple",
@@ -8314,7 +8304,7 @@
                     title:
                       "Click to display previous position of the displayed position.",
                   },
-                  "Previous Position",
+                  "Prev",
                 ),
                 m(
                   "button#nextposition.ripple",
@@ -8324,7 +8314,17 @@
                     title:
                       "Click to display next position of the displayed position.",
                   },
-                  "Next Position",
+                  "Next",
+                ),
+                m(
+                  "button#currentposition.ripple",
+                  {
+                    onclick: displayCurrentPosition,
+                    disabled: !is_ready,
+                    title:
+                      "Click to display the latest position of current game.",
+                  },
+                  "Curr",
                 ),
                 m("input[type=number]#gotomovenum", {
                   placeholder: "Half Move Number",
@@ -8341,7 +8341,7 @@
                     title:
                       "Click to display the position that the half move specified in the input box is moved.",
                   },
-                  "Go to Move",
+                  "Go To",
                 ),
                 m(
                   "button#starthere.ripple",
