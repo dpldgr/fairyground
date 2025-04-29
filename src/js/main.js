@@ -2427,11 +2427,14 @@ new Module().then((loadedModule) => {
     }
   };
 
-  borderlandsIni.onclick = function (e) {
+  borderlandsIni.onclick = async (e) => {
+
     resetTimer();
     recordedmultipv = 1;
-    console.log("/borderlands.ini");
-    ffish.loadVariantConfig("/borderlands.ini");
+    const response = await fetch('./borderlands.ini')
+    const ini = await response.text();
+    console.log(ini);
+    ffish.loadVariantConfig(ini);
   };
 
   dropdownVariant.onchange = function () {
