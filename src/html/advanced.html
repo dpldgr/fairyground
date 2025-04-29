@@ -6293,6 +6293,8 @@
         stockfish.postMessage(`check /borderlands.ini`);
         stockfish.postMessage(`load /borderlands.ini`);
         stockfish.postMessage(`uci`);
+        $("#dropdown-variant").value = "borderlands";
+        $("#dropdown-variant").dispatchEvent(new Event("change"));
       }
 
       const onLoadBorderlands = () => {
