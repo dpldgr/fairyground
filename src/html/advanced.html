@@ -6229,7 +6229,6 @@
                 }
                 m.redraw();
               });
-              ffishBorderlands();
               onLoadBorderlands();
               getVariants();
             },
@@ -6292,6 +6291,11 @@
         const buffer = await response.arrayBuffer();
         const array = new Uint8Array(buffer);
         const filename = "/borderlands.ini";
+
+        const response2 = await fetch('./borderlands.ini')
+        const ini = await response2.text();
+        window.ffishlib.loadVariantConfig(ini);
+
         FS.writeFile(filename, array);
         stockfish.postMessage(`check ${filename}`);
         stockfish.postMessage(`load ${filename}`);
