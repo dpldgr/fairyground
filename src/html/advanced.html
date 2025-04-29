@@ -6284,10 +6284,10 @@
       };
 
       const onLoadBorderlands = () => {
+        var text;
         console.log(`Loading borderlands.ini`);
         fetch('./borderlands.ini')
-		  .then(response => response.text())
-		  .then(data => console.log(data));
+		  .then(response => (text = response.text()))
         /*
         if (selected) {
           const FS = stockfish.FS;
