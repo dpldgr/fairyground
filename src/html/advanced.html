@@ -6284,6 +6284,7 @@
       };
 
       async function fetchBorderlandsIni() {
+        const FS = stockfish.FS;
         let ini_file;
         const res = await fetch('./borderlands.ini')
         ini_file = await res.text();
