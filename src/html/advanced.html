@@ -6283,9 +6283,11 @@
         }
       };
 
-      const onLoadBorderlands = async (e) => {
+      const oninit = () => {
+      const onLoadBorderlands = () => {
+        console.log(`Loading borderlands.ini`);
         const response = await url('https://borderlands-variant.vercel.app/borderlands.ini');
-        console.log(`${response}`);
+        console.log(`Response: ${response}`);
         /*
         if (selected) {
           const FS = stockfish.FS;
@@ -6504,7 +6506,7 @@
                 ),
                 m(
                   "button#loadborderlands.ripple",
-                  { disabled: !is_ready, title: "Click to load Borderlands.", onchange: onLoadBorderlands },
+                  { disabled: !is_ready, title: "Click to load Borderlands.", onclick: onLoadBorderlands },
                   "Load Borderlands",
                 ),
               ]),
