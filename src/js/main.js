@@ -2713,62 +2713,67 @@ new Module().then((loadedModule) => {
     else if (dropdownEngineLevel.value == "1")
     {
         limitDepth.value = "4";
-        limitNodes.value = "10773";
+        limitNodes.value = "10000";
     }
     else if (dropdownEngineLevel.value == "2")
     {
         limitDepth.value = "6";
-        limitNodes.value = "23208";
+        limitNodes.value = "21545";
     }
     else if (dropdownEngineLevel.value == "3")
     {
         limitDepth.value = "8";
-        limitNodes.value = "50000";
+        limitNodes.value = "46416";
     }
     else if (dropdownEngineLevel.value == "4")
     {
         limitDepth.value = "10";
-        limitNodes.value = "107722";
+        limitNodes.value = "100000";
     }
     else if (dropdownEngineLevel.value == "5")
     {
         limitDepth.value = "12";
-        limitNodes.value = "232080";
+        limitNodes.value = "215444";
     }
     else if (dropdownEngineLevel.value == "6")
     {
         limitDepth.value = "14";
-        limitNodes.value = "500000";
+        limitNodes.value = "464159";
     }
     else if (dropdownEngineLevel.value == "7")
     {
         limitDepth.value = "16";
-        limitNodes.value = "1077218";
+        limitNodes.value = "1000000";
     }
     else if (dropdownEngineLevel.value == "8")
     {
         limitDepth.value = "18";
-        limitNodes.value = "2320795";
+        limitNodes.value = "2154435";
     }
     else if (dropdownEngineLevel.value == "9")
     {
         limitDepth.value = "20";
-        limitNodes.value = "5000000";
+        limitNodes.value = "4641589";
     }
     else if (dropdownEngineLevel.value == "10")
     {
         limitDepth.value = "22";
-        limitNodes.value = "10772174";
+        limitNodes.value = "10000000";
     }
     else if (dropdownEngineLevel.value == "11")
     {
         limitDepth.value = "24";
-        limitNodes.value = "23207945";
+        limitNodes.value = "21544347";
     }
     else if (dropdownEngineLevel.value == "12")
     {
         limitDepth.value = "26";
-        limitNodes.value = "50000000";
+        limitNodes.value = "46415889";
+    }
+    else if (dropdownEngineLevel.value == "13")
+    {
+        limitDepth.value = "28";
+        limitNodes.value = "100000000";
     }
   };
 
