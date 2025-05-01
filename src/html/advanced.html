@@ -6263,7 +6263,7 @@
           stockfish.postMessage(`setoption name EvalFile value ${filename}`);
           // Automatically set variant
           const variant = selected.name.split(/[_.-]+/)[0];
-	          $("#dropdown-variant").value = variant;
+	      $("#dropdown-variant").value = variant;
           $("#dropdown-variant").dispatchEvent(new Event("change"));
         }
       };
@@ -6299,6 +6299,8 @@
         stockfish.postMessage(`check ${filename}`);
         stockfish.postMessage(`load ${filename}`);
         getVariants();
+	    $("#dropdown-variant").value = "borderlands";
+        $("#dropdown-variant").dispatchEvent(new Event("change"));
       };
 
       function isLetter(str) {
