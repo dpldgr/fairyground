@@ -75,7 +75,7 @@
 *|meridaletters,cburnettletters,lettertiles,letters,blindfold,userdefined|
 |merida,cburnett|blueboard,greenboard,brownboard,purpleboard,cobaltboard
 
-borderlands|borderlands|borderlands-cobalt-board,borderlands-blue-board,borderlands-green-board,borderlands-brown-board,borderlands-purple-board,borderlands-xiangqi-board
+borderlands|borderlands,borderlands2|borderlands-cobalt-board,borderlands-blue-board,borderlands-green-board,borderlands-brown-board,borderlands-purple-board,borderlands-xiangqi-board
 
 spartan|spartan|
 empire|empire|
