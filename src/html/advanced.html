@@ -7233,6 +7233,7 @@
               },
               m("input[type=checkbox]#randommoverwhite", {
                 checked: random_mover_white,
+                hidden: true,
                 disabled:
                   analysis_mode ||
                   review_mode ||
@@ -7253,6 +7254,7 @@
               },
               m("input[type=checkbox]#randommoverblack", {
                 checked: random_mover_black,
+                hidden: true,
                 disabled:
                   analysis_mode ||
                   review_mode ||
@@ -7545,6 +7547,7 @@
               },
               m("input[type=checkbox]#isfischerrandommode", {
                 checked: fischer_random_mode,
+                hidden: true,
                 disabled:
                   !is_ready ||
                   during_engine_match ||
