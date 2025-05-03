@@ -75,6 +75,9 @@
 *|meridaletters,cburnettletters,lettertiles,letters,blindfold,userdefined|
 |merida,cburnett|blueboard,greenboard,brownboard,purpleboard,cobaltboard
 
+borderlands|borderlands|borderlands-cobalt-board,borderlands-xiangqi-board
+CHESS_XIANGQI|CHESS_XIANGQI|
+
 seirawan|seirawan|
 shouse|@seirawan|
 duck|duck|
