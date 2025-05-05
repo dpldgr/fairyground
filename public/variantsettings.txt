@@ -6,14 +6,14 @@
 #The wiki page will be shown when users click <Variant INFO> button and click <Yes> or <OK>.
 #This can also be accessed from <Variant INFO> button.
 
-borderlands|_Contest Variants_|Borderlands|Borderlands by Dean.|https://discord.com/channels/634298688663191582/1305680860720271410/1366992056790024303
-000|_Contest Variants_|000|000 by longdoan189.|https://discord.com/channels/634298688663191582/1305680860720271410/1350849196449857566
-CHESS_XIANGQI|_Contest Variants_|CHESS_XIANGQI|CHESS_XIANGQI by Omshinwa.|https://discord.com/channels/634298688663191582/1305680860720271410/1364723849106690129
-OD_VARIANT|_Contest Variants_|OD_VARIANT| by Radar.|https://discord.com/channels/634298688663191582/1305680860720271410/1366630126145638413
-0Sinting|_Contest Variants_|0Sinting|0Sinting by m̶R̶c̶p̶R̶ ̶r̶o̶l̶e̶ ̶w̶h̶e̶r̶e.|https://discord.com/channels/634298688663191582/1305680860720271410/1367012691700486185
-shocking|_Contest Variants_|shocking|shocking by praseodymiumspike.|https://discord.com/channels/634298688663191582/1347612045742313491/1365286036833439755
-MelonVariant|_Contest Variants_|MelonVariant|MelonVariant by Watermelonely.|https://discord.com/channels/634298688663191582/1305680860720271410/1368381373420666951
-MartialXiangqi|_Contest Variants_|MartialXiangqi|MartialXiangqi by Eventlesstew.|https://discord.com/channels/634298688663191582/1305680860720271410/1368675911724957898
+borderlands|Contest Variants|Borderlands|Borderlands by Dean.|https://discord.com/channels/634298688663191582/1305680860720271410/1366992056790024303
+000|Contest Variants|000|000 by longdoan189.|https://discord.com/channels/634298688663191582/1305680860720271410/1350849196449857566
+CHESS_XIANGQI|Contest Variants|CHESS_XIANGQI|CHESS_XIANGQI by Omshinwa.|https://discord.com/channels/634298688663191582/1305680860720271410/1364723849106690129
+OD_VARIANT|Contest Variants|OD_VARIANT| by Radar.|https://discord.com/channels/634298688663191582/1305680860720271410/1366630126145638413
+0Sinting|Contest Variants|0Sinting|0Sinting by m̶R̶c̶p̶R̶ ̶r̶o̶l̶e̶ ̶w̶h̶e̶r̶e.|https://discord.com/channels/634298688663191582/1305680860720271410/1367012691700486185
+shocking|Contest Variants|shocking|shocking by praseodymiumspike.|https://discord.com/channels/634298688663191582/1347612045742313491/1365286036833439755
+MelonVariant|Contest Variants|MelonVariant|MelonVariant by Watermelonely.|https://discord.com/channels/634298688663191582/1305680860720271410/1368381373420666951
+MartialXiangqi|Contest Variants|MartialXiangqi|MartialXiangqi by Eventlesstew.|https://discord.com/channels/634298688663191582/1305680860720271410/1368675911724957898
 
 # Chess Variants: Variants based on Chess and do not introduce fairy pieces
 chess|Chess Variants|Chess|Chess, unmodified, as it's played by FIDE standards.|https://en.wikipedia.org/wiki/Chess
