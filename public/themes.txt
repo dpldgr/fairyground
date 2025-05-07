@@ -78,6 +78,7 @@
 borderlands|borderlands|borderlands-cobalt-board,borderlands-xiangqi-board
 CHESS_XIANGQI|CHESS_XIANGQI|
 shocking|shocking|
+MelonVariant|MelonVariant|
 
 seirawan|seirawan|
 shouse|@seirawan|
