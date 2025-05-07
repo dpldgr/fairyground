@@ -11,7 +11,7 @@
   background-image: url('images/pieces/cburnett/w+B.svg');
 }
 .shocking .cg-wrap piece.c-piece.white {
-  background-image: url('images/pieces/cburnett/wC.svg');
+  background-image: url('images/pieces/shocking/wC.svg');
 }
 .shocking .cg-wrap piece.pc-piece.white {
   background-image: url('images/pieces/cburnett/w+C.svg');
@@ -156,7 +156,7 @@
 }
 
 .shocking .cg-wrap piece.a-piece.black {
-  background-image: url('images/pieces/cburnett/bA.svg');
+  background-image: url('images/pieces/shocking/bA.svg');
 }
 .shocking .cg-wrap piece.pa-piece.black {
   background-image: url('images/pieces/cburnett/b+A.svg');
@@ -240,7 +240,7 @@
   background-image: url('images/pieces/cburnett/b+N.svg');
 }
 .shocking .cg-wrap piece.o-piece.black {
-  background-image: url('images/pieces/cburnett/bO.svg');
+  background-image: url('images/pieces/shocking/bO.svg');
 }
 .shocking .cg-wrap piece.po-piece.black {
   background-image: url('images/pieces/cburnett/b+O.svg');
