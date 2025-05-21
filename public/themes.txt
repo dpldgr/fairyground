@@ -76,9 +76,9 @@
 |merida,cburnett|blueboard,greenboard,brownboard,purpleboard,cobaltboard
 
 borderlands|borderlands|borderlands-cobalt-board,borderlands-xiangqi-board
+MelonVariant|MelonVariant|melonvariant-board
 CHESS_XIANGQI|CHESS_XIANGQI|
 shocking|shocking|
-MelonVariant|MelonVariant|
 
 seirawan|seirawan|
 shouse|@seirawan|

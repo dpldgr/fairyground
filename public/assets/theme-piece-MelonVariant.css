@@ -1,340 +1,97 @@
-.MelonVariant .cg-wrap piece.a-piece.white {
-  background-image: url('images/pieces/merida/wA.svg');
+.MelonVariant piece.p-piece.black {
+    background-image: url('images/pieces/alfaerie/bcannonpawn.svg');
 }
-.MelonVariant .cg-wrap piece.pa-piece.white {
-  background-image: url('images/pieces/merida/w+A.svg');
+.MelonVariant piece.a-piece.black {
+    background-image: url('images/pieces/alfaerie/bbishoppao.svg');
 }
-.MelonVariant .cg-wrap piece.b-piece.white {
-  background-image: url('images/pieces/merida/wB.svg');
+.MelonVariant piece.b-piece.black {
+    background-image: url('images/pieces/alfaerie/bbishopvao.svg');
 }
-.MelonVariant .cg-wrap piece.pb-piece.white {
-  background-image: url('images/pieces/merida/w+B.svg');
+.MelonVariant piece.pb-piece.black {
+    background-image: url('images/pieces/alfaerie/belephantferz.svg');
 }
-.MelonVariant .cg-wrap piece.c-piece.white {
-  background-image: url('images/pieces/merida/wC.svg');
+.MelonVariant piece.pm-piece.black {
+    background-image: url('images/pieces/alfaerie/belephantwarmachine.svg');
 }
-.MelonVariant .cg-wrap piece.pc-piece.white {
-  background-image: url('images/pieces/merida/w+C.svg');
+.MelonVariant piece.pw-piece.black {
+    background-image: url('images/pieces/alfaerie/belephantwazir.svg');
 }
-.MelonVariant .cg-wrap piece.d-piece.white {
-  background-image: url('images/pieces/merida/wD.svg');
+.MelonVariant piece.pq-piece.black {
+    background-image: url('images/pieces/alfaerie/bguard.svg');
 }
-.MelonVariant .cg-wrap piece.pd-piece.white {
-  background-image: url('images/pieces/merida/w+D.svg');
+.MelonVariant piece.k-piece.black {
+    background-image: url('images/pieces/alfaerie/bking.svg');
 }
-.MelonVariant .cg-wrap piece.e-piece.white {
-  background-image: url('images/pieces/merida/wE.svg');
+.MelonVariant piece.pc-piece.black {
+    background-image: url('images/pieces/alfaerie/bknight.svg');
 }
-.MelonVariant .cg-wrap piece.pe-piece.white {
-  background-image: url('images/pieces/merida/w+E.svg');
+.MelonVariant piece.c-piece.black {
+    background-image: url('images/pieces/alfaerie/bnightrider.svg');
 }
-.MelonVariant .cg-wrap piece.f-piece.white {
-  background-image: url('images/pieces/merida/wF.svg');
+.MelonVariant piece.m-piece.black {
+    background-image: url('images/pieces/alfaerie/bpaovao.svg');
 }
-.MelonVariant .cg-wrap piece.pf-piece.white {
-  background-image: url('images/pieces/merida/w+F.svg');
+.MelonVariant piece.q-piece.black {
+    background-image: url('images/pieces/alfaerie/bqueen.svg');
 }
-.MelonVariant .cg-wrap piece.g-piece.white {
-  background-image: url('images/pieces/merida/wG.svg');
+.MelonVariant piece.r-piece.black {
+    background-image: url('images/pieces/alfaerie/brookpao.svg');
 }
-.MelonVariant .cg-wrap piece.pg-piece.white {
-  background-image: url('images/pieces/merida/w+G.svg');
+.MelonVariant piece.w-piece.black {
+    background-image: url('images/pieces/alfaerie/brookvao.svg');
 }
-.MelonVariant .cg-wrap piece.h-piece.white {
-  background-image: url('images/pieces/merida/wH.svg');
+.MelonVariant piece.pa-piece.black {
+    background-image: url('images/pieces/alfaerie/bwarmachineferz.svg');
 }
-.MelonVariant .cg-wrap piece.ph-piece.white {
-  background-image: url('images/pieces/merida/w+H.svg');
-}
-.MelonVariant .cg-wrap piece.i-piece.white {
-  background-image: url('images/pieces/merida/wI.svg');
-}
-.MelonVariant .cg-wrap piece.pi-piece.white {
-  background-image: url('images/pieces/merida/w+I.svg');
-}
-.MelonVariant .cg-wrap piece.j-piece.white {
-  background-image: url('images/pieces/merida/wJ.svg');
-}
-.MelonVariant .cg-wrap piece.pj-piece.white {
-  background-image: url('images/pieces/merida/w+J.svg');
-}
-.MelonVariant .cg-wrap piece.k-piece.white {
-  background-image: url('images/pieces/merida/wK.svg');
-}
-.MelonVariant .cg-wrap piece.pk-piece.white {
-  background-image: url('images/pieces/merida/w+K.svg');
-}
-.MelonVariant .cg-wrap piece.l-piece.white {
-  background-image: url('images/pieces/merida/wL.svg');
-}
-.MelonVariant .cg-wrap piece.pl-piece.white {
-  background-image: url('images/pieces/merida/w+L.svg');
-}
-.MelonVariant .cg-wrap piece.m-piece.white {
-  background-image: url('images/pieces/merida/wM.svg');
-}
-.MelonVariant .cg-wrap piece.pm-piece.white {
-  background-image: url('images/pieces/merida/w+M.svg');
-}
-.MelonVariant .cg-wrap piece.n-piece.white {
-  background-image: url('images/pieces/merida/wN.svg');
-}
-.MelonVariant .cg-wrap piece.pn-piece.white {
-  background-image: url('images/pieces/merida/w+N.svg');
-}
-.MelonVariant .cg-wrap piece.o-piece.white {
-  background-image: url('images/pieces/merida/wO.svg');
-}
-.MelonVariant .cg-wrap piece.po-piece.white {
-  background-image: url('images/pieces/merida/w+O.svg');
-}
-.MelonVariant .cg-wrap piece.p-piece.white {
-  background-image: url('images/pieces/merida/wP.svg');
-}
-.MelonVariant .cg-wrap piece.pp-piece.white {
-  background-image: url('images/pieces/merida/w+P.svg');
-}
-.MelonVariant .cg-wrap piece.q-piece.white {
-  background-image: url('images/pieces/merida/wQ.svg');
-}
-.MelonVariant .cg-wrap piece.pq-piece.white {
-  background-image: url('images/pieces/merida/w+Q.svg');
-}
-.MelonVariant .cg-wrap piece.r-piece.white {
-  background-image: url('images/pieces/merida/wR.svg');
-}
-.MelonVariant .cg-wrap piece.pr-piece.white {
-  background-image: url('images/pieces/merida/w+R.svg');
-}
-.MelonVariant .cg-wrap piece.s-piece.white {
-  background-image: url('images/pieces/merida/wS.svg');
-}
-.MelonVariant .cg-wrap piece.ps-piece.white {
-  background-image: url('images/pieces/merida/w+S.svg');
-}
-.MelonVariant .cg-wrap piece.t-piece.white {
-  background-image: url('images/pieces/merida/wT.svg');
-}
-.MelonVariant .cg-wrap piece.pt-piece.white {
-  background-image: url('images/pieces/merida/w+T.svg');
-}
-.MelonVariant .cg-wrap piece.u-piece.white {
-  background-image: url('images/pieces/merida/wU.svg');
-}
-.MelonVariant .cg-wrap piece.pu-piece.white {
-  background-image: url('images/pieces/merida/w+U.svg');
-}
-.MelonVariant .cg-wrap piece.v-piece.white {
-  background-image: url('images/pieces/merida/wV.svg');
-}
-.MelonVariant .cg-wrap piece.pv-piece.white {
-  background-image: url('images/pieces/merida/w+V.svg');
-}
-.MelonVariant .cg-wrap piece.w-piece.white {
-  background-image: url('images/pieces/merida/wW.svg');
-}
-.MelonVariant .cg-wrap piece.pw-piece.white {
-  background-image: url('images/pieces/merida/w+W.svg');
-}
-.MelonVariant .cg-wrap piece.x-piece.white {
-  background-image: url('images/pieces/merida/wX.svg');
-}
-.MelonVariant .cg-wrap piece.px-piece.white {
-  background-image: url('images/pieces/merida/w+X.svg');
-}
-.MelonVariant .cg-wrap piece.y-piece.white {
-  background-image: url('images/pieces/merida/wY.svg');
-}
-.MelonVariant .cg-wrap piece.py-piece.white {
-  background-image: url('images/pieces/merida/w+Y.svg');
-}
-.MelonVariant .cg-wrap piece.z-piece.white {
-  background-image: url('images/pieces/merida/wZ.svg');
-}
-.MelonVariant .cg-wrap piece.pz-piece.white {
-  background-image: url('images/pieces/merida/w+Z.svg');
+.MelonVariant piece.pr-piece.black {
+    background-image: url('images/pieces/alfaerie/bwarmachinewazir.svg');
 }
 
-.MelonVariant .cg-wrap piece.a-piece.black {
-  background-image: url('images/pieces/merida/bA.svg');
+.MelonVariant piece.p-piece.white {
+    background-image: url('images/pieces/alfaerie/wcannonpawn.svg');
 }
-.MelonVariant .cg-wrap piece.pa-piece.black {
-  background-image: url('images/pieces/merida/b+A.svg');
+.MelonVariant piece.a-piece.white {
+    background-image: url('images/pieces/alfaerie/wbishoppao.svg');
 }
-.MelonVariant .cg-wrap piece.b-piece.black {
-  background-image: url('images/pieces/merida/bB.svg');
+.MelonVariant piece.b-piece.white {
+    background-image: url('images/pieces/alfaerie/wbishopvao.svg');
 }
-.MelonVariant .cg-wrap piece.pb-piece.black {
-  background-image: url('images/pieces/merida/b+B.svg');
+.MelonVariant piece.pb-piece.white {
+    background-image: url('images/pieces/alfaerie/welephantferz.svg');
 }
-.MelonVariant .cg-wrap piece.c-piece.black {
-  background-image: url('images/pieces/merida/bC.svg');
+.MelonVariant piece.pm-piece.white {
+    background-image: url('images/pieces/alfaerie/welephantwarmachine.svg');
 }
-.MelonVariant .cg-wrap piece.pc-piece.black {
-  background-image: url('images/pieces/merida/b+C.svg');
+.MelonVariant piece.pw-piece.white {
+    background-image: url('images/pieces/alfaerie/welephantwazir.svg');
 }
-.MelonVariant .cg-wrap piece.d-piece.black {
-  background-image: url('images/pieces/merida/bD.svg');
+.MelonVariant piece.pq-piece.white {
+    background-image: url('images/pieces/alfaerie/wguard.svg');
 }
-.MelonVariant .cg-wrap piece.pd-piece.black {
-  background-image: url('images/pieces/merida/b+D.svg');
+.MelonVariant piece.k-piece.white {
+    background-image: url('images/pieces/alfaerie/wking.svg');
 }
-.MelonVariant .cg-wrap piece.e-piece.black {
-  background-image: url('images/pieces/merida/bE.svg');
+.MelonVariant piece.pc-piece.white {
+    background-image: url('images/pieces/alfaerie/wknight.svg');
 }
-.MelonVariant .cg-wrap piece.pe-piece.black {
-  background-image: url('images/pieces/merida/b+E.svg');
+.MelonVariant piece.c-piece.white {
+    background-image: url('images/pieces/alfaerie/wnightrider.svg');
 }
-.MelonVariant .cg-wrap piece.f-piece.black {
-  background-image: url('images/pieces/merida/bF.svg');
+.MelonVariant piece.m-piece.white {
+    background-image: url('images/pieces/alfaerie/wpaovao.svg');
 }
-.MelonVariant .cg-wrap piece.pf-piece.black {
-  background-image: url('images/pieces/merida/b+F.svg');
+.MelonVariant piece.q-piece.white {
+    background-image: url('images/pieces/alfaerie/wqueen.svg');
 }
-.MelonVariant .cg-wrap piece.g-piece.black {
-  background-image: url('images/pieces/merida/bG.svg');
+.MelonVariant piece.r-piece.white {
+    background-image: url('images/pieces/alfaerie/wrookpao.svg');
 }
-.MelonVariant .cg-wrap piece.pg-piece.black {
-  background-image: url('images/pieces/merida/b+G.svg');
+.MelonVariant piece.w-piece.white {
+    background-image: url('images/pieces/alfaerie/wrookvao.svg');
 }
-.MelonVariant .cg-wrap piece.h-piece.black {
-  background-image: url('images/pieces/merida/bH.svg');
+.MelonVariant piece.pa-piece.white {
+    background-image: url('images/pieces/alfaerie/wwarmachineferz.svg');
 }
-.MelonVariant .cg-wrap piece.ph-piece.black {
-  background-image: url('images/pieces/merida/b+H.svg');
-}
-.MelonVariant .cg-wrap piece.i-piece.black {
-  background-image: url('images/pieces/merida/bI.svg');
-}
-.MelonVariant .cg-wrap piece.pi-piece.black {
-  background-image: url('images/pieces/merida/b+I.svg');
-}
-.MelonVariant .cg-wrap piece.j-piece.black {
-  background-image: url('images/pieces/merida/bJ.svg');
-}
-.MelonVariant .cg-wrap piece.pj-piece.black {
-  background-image: url('images/pieces/merida/b+J.svg');
-}
-.MelonVariant .cg-wrap piece.k-piece.black {
-  background-image: url('images/pieces/merida/bK.svg');
-}
-.MelonVariant .cg-wrap piece.pk-piece.black {
-  background-image: url('images/pieces/merida/b+K.svg');
-}
-.MelonVariant .cg-wrap piece.l-piece.black {
-  background-image: url('images/pieces/merida/bL.svg');
-}
-.MelonVariant .cg-wrap piece.pl-piece.black {
-  background-image: url('images/pieces/merida/b+L.svg');
-}
-.MelonVariant .cg-wrap piece.m-piece.black {
-  background-image: url('images/pieces/merida/bM.svg');
-}
-.MelonVariant .cg-wrap piece.pm-piece.black {
-  background-image: url('images/pieces/merida/b+M.svg');
-}
-.MelonVariant .cg-wrap piece.n-piece.black {
-  background-image: url('images/pieces/merida/bN.svg');
-}
-.MelonVariant .cg-wrap piece.pn-piece.black {
-  background-image: url('images/pieces/merida/b+N.svg');
-}
-.MelonVariant .cg-wrap piece.o-piece.black {
-  background-image: url('images/pieces/merida/bO.svg');
-}
-.MelonVariant .cg-wrap piece.po-piece.black {
-  background-image: url('images/pieces/merida/b+O.svg');
-}
-.MelonVariant .cg-wrap piece.p-piece.black {
-  background-image: url('images/pieces/merida/bP.svg');
-}
-.MelonVariant .cg-wrap piece.pp-piece.black {
-  background-image: url('images/pieces/merida/b+P.svg');
-}
-.MelonVariant .cg-wrap piece.q-piece.black {
-  background-image: url('images/pieces/merida/bQ.svg');
-}
-.MelonVariant .cg-wrap piece.pq-piece.black {
-  background-image: url('images/pieces/merida/b+Q.svg');
-}
-.MelonVariant .cg-wrap piece.r-piece.black {
-  background-image: url('images/pieces/merida/bR.svg');
-}
-.MelonVariant .cg-wrap piece.pr-piece.black {
-  background-image: url('images/pieces/merida/b+R.svg');
-}
-.MelonVariant .cg-wrap piece.s-piece.black {
-  background-image: url('images/pieces/merida/bS.svg');
-}
-.MelonVariant .cg-wrap piece.ps-piece.black {
-  background-image: url('images/pieces/merida/b+S.svg');
-}
-.MelonVariant .cg-wrap piece.t-piece.black {
-  background-image: url('images/pieces/merida/bT.svg');
-}
-.MelonVariant .cg-wrap piece.pt-piece.black {
-  background-image: url('images/pieces/merida/b+T.svg');
-}
-.MelonVariant .cg-wrap piece.u-piece.black {
-  background-image: url('images/pieces/merida/bU.svg');
-}
-.MelonVariant .cg-wrap piece.pu-piece.black {
-  background-image: url('images/pieces/merida/b+U.svg');
-}
-.MelonVariant .cg-wrap piece.v-piece.black {
-  background-image: url('images/pieces/merida/bV.svg');
-}
-.MelonVariant .cg-wrap piece.pv-piece.black {
-  background-image: url('images/pieces/merida/b+V.svg');
-}
-.MelonVariant .cg-wrap piece.w-piece.black {
-  background-image: url('images/pieces/merida/bW.svg');
-}
-.MelonVariant .cg-wrap piece.pw-piece.black {
-  background-image: url('images/pieces/merida/b+W.svg');
-}
-.MelonVariant .cg-wrap piece.x-piece.black {
-  background-image: url('images/pieces/merida/bX.svg');
-}
-.MelonVariant .cg-wrap piece.px-piece.black {
-  background-image: url('images/pieces/merida/b+X.svg');
-}
-.MelonVariant .cg-wrap piece.y-piece.black {
-  background-image: url('images/pieces/merida/bY.svg');
-}
-.MelonVariant .cg-wrap piece.py-piece.black {
-  background-image: url('images/pieces/merida/b+Y.svg');
-}
-.MelonVariant .cg-wrap piece.z-piece.black {
-  background-image: url('images/pieces/merida/bZ.svg');
-}
-.MelonVariant .cg-wrap piece.pz-piece.black {
-  background-image: url('images/pieces/merida/b+Z.svg');
-}
-
-.MelonVariant .cg-wrap piece._-piece {
-  background-image: url('images/wallsquare/barrier.svg');
-}
-
-.merida.board9x10 .cg-wrap piece.a-piece.white {
-  background-image: url('images/pieces/merida/wS.svg');
-}
-.merida.board9x10 .cg-wrap piece.b-piece.white {
-  background-image: url('images/pieces/merida/wE.svg');
-}
-.merida.board9x10 .cg-wrap piece.c-piece.white {
-  background-image: url('images/pieces/merida/wCa.svg');
-}
-.merida.board9x10 .cg-wrap piece.a-piece.black {
-  background-image: url('images/pieces/merida/bS.svg');
-}
-.merida.board9x10 .cg-wrap piece.b-piece.black {
-  background-image: url('images/pieces/merida/bE.svg');
-}
-.merida.board9x10 .cg-wrap piece.c-piece.black {
-  background-image: url('images/pieces/merida/bCa.svg');
-}
-
-.MelonVariant .cg-wrap piece.unknown {
-  background-image: url('images/fogofwar/unknowncarbonfiber.svg');
+.MelonVariant piece.pr-piece.white {
+    background-image: url('images/pieces/alfaerie/wwarmachinewazir.svg');
 }
