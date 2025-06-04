@@ -7,12 +7,12 @@
 #This can also be accessed from <Variant INFO> button.
 
 borderlands|Contest Variants|Borderlands|Borderlands by Dean.|https://discord.com/channels/634298688663191582/1305680860720271410/1366992056790024303
-000|Contest Variants|000|000 by longdoan189.|https://discord.com/channels/634298688663191582/1305680860720271410/1350849196449857566
-CHESS_XIANGQI|Contest Variants|CHESS_XIANGQI|CHESS_XIANGQI by Omshinwa.|https://discord.com/channels/634298688663191582/1305680860720271410/1364723849106690129
-OD_VARIANT|Contest Variants|OD_VARIANT| by Radar.|https://discord.com/channels/634298688663191582/1305680860720271410/1366630126145638413
-0Sinting|Contest Variants|0Sinting|0Sinting by m̶R̶c̶p̶R̶ ̶r̶o̶l̶e̶ ̶w̶h̶e̶r̶e.|https://discord.com/channels/634298688663191582/1305680860720271410/1367012691700486185
-shocking|Contest Variants|shocking|shocking by praseodymiumspike.|https://discord.com/channels/634298688663191582/1347612045742313491/1365286036833439755
-MelonVariant|Contest Variants|MelonVariant|MelonVariant by Watermelonely.|https://discord.com/channels/634298688663191582/1305680860720271410/1368381373420666951
+variant_000|Contest Variants|Variant 000|Variant 000 by longdoan189.|https://discord.com/channels/634298688663191582/1305680860720271410/1350849196449857566
+chess_xiangqi|Contest Variants|Chess vs Xiangqi|CHESS_XIANGQI by Omshinwa.|https://discord.com/channels/634298688663191582/1305680860720271410/1364723849106690129
+battleofideologies|Contest Variants|Battle of Ideologies|Battle of Ideologies by Radar.|https://discord.com/channels/634298688663191582/1305680860720271410/1366630126145638413
+sinting|Contest Variants|Sinting|Sinting by m̶R̶c̶p̶R̶ ̶r̶o̶l̶e̶ ̶w̶h̶e̶r̶e.|https://discord.com/channels/634298688663191582/1305680860720271410/1367012691700486185
+shocking|Contest Variants|Shocking|Shocking by praseodymiumspike.|https://discord.com/channels/634298688663191582/1347612045742313491/1365286036833439755
+melonvariant|Contest Variants|MelonVariant|Melon Variant by Watermelonely.|https://discord.com/channels/634298688663191582/1305680860720271410/1368381373420666951
 xiangfu|Contest Variants|Xiangfu|Xiangfu by Eventlesstew.|https://discord.com/channels/634298688663191582/1305680860720271410/1368675911724957898
 
 # Chess Variants: Variants based on Chess and do not introduce fairy pieces
