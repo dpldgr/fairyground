@@ -1,0 +1,42 @@
+.xiangfu .cg-wrap piece.a-piece.white {
+  background-image: url('images/pieces/xiangfu/wA.svg');
+}
+.xiangfu .cg-wrap piece.b-piece.white {
+  background-image: url('images/pieces/xiangfu/wB.svg');
+}
+.xiangfu .cg-wrap piece.c-piece.white {
+  background-image: url('images/pieces/xiangfu/wC.svg');
+}
+.xiangfu .cg-wrap piece.e-piece.white {
+  background-image: url('images/pieces/xiangfu/wE.svg');
+}
+.xiangfu .cg-wrap piece.k-piece.white {
+  background-image: url('images/pieces/xiangfu/wK.svg');
+}
+.xiangfu .cg-wrap piece.n-piece.white {
+  background-image: url('images/pieces/xiangfu/wN.svg');
+}
+.xiangfu .cg-wrap piece.r-piece.white {
+  background-image: url('images/pieces/xiangfu/wR.svg');
+}
+.xiangfu .cg-wrap piece.a-piece.black {
+  background-image: url('images/pieces/xiangfu/bA.svg');
+}
+.xiangfu .cg-wrap piece.b-piece.black {
+  background-image: url('images/pieces/xiangfu/bB.svg');
+}
+.xiangfu .cg-wrap piece.c-piece.black {
+  background-image: url('images/pieces/xiangfu/bC.svg');
+}
+.xiangfu .cg-wrap piece.e-piece.black {
+  background-image: url('images/pieces/xiangfu/bE.svg');
+}
+.xiangfu .cg-wrap piece.k-piece.black {
+  background-image: url('images/pieces/xiangfu/bK.svg');
+}
+.xiangfu .cg-wrap piece.n-piece.black {
+  background-image: url('images/pieces/xiangfu/bN.svg');
+}
+.xiangfu .cg-wrap piece.r-piece.black {
+  background-image: url('images/pieces/xiangfu/bR.svg');
+}
