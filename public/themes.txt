@@ -71,7 +71,6 @@
 #There may be some bugs in the code reading this file. If you meet one, please report it as an issue at:
 #https://github.com/ianfab/fairyground/issues
 
-
 *|meridaletters,cburnettletters,lettertiles,letters,blindfold,userdefined|
 |merida,cburnett|blueboard,greenboard,brownboard,purpleboard,cobaltboard
 
@@ -80,6 +79,7 @@ melonvariant|melonvariant|melonvariant-board
 chess_xiangqi|chess_xiangqi|
 shocking|shocking|
 xiangfu|xiangfu|xiangfu-board
+xiangfu2|@xiangfu|@xiangfu
 
 seirawan|seirawan|
 shouse|@seirawan|

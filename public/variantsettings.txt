@@ -146,6 +146,7 @@ manchu|Xiangqi Variants|Manchu Xiangqi|Xiangqi variant where one side has a char
 minixiangqi|Xiangqi Variants|Mini Xiangqi|Compact version of Xiangqi played on a 7×7 board without a river.|http://mlwi.magix.net/bg/minixiangqi.htm
 xiangqihouse|Xiangqi Variants|Xiangqi House|Hybrid variant of Xiangqi and Crazyhouse.|
 crowdedxiangqi|Xiangqi Variants|Crowded Xiangqi|Chinese Chess on half the board (5 × 9 intersections).|https://github.com/fairy-stockfish/Fairy-Stockfish/issues/180
+xiangfu2|Contest Variants|Xiangfu 2|Xiangfu 2 by Eventlesstew.|
 
 # Janggi Variants: Variants based on Janggi
 janggi|Janggi Variants|Janggi|Korean Chess, similar to Xiangqi but plays much differently. Tournament rules are used.|https://en.wikipedia.org/wiki/Janggi
